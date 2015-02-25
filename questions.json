@@ -1,0 +1,29 @@
+{
+	"1": {
+		"text": "You wake up.\nWhat do you do?",
+		"options": {
+			"1": {
+				"text": "Go back to sleep",
+				"goto": 2
+			},
+			"2": {
+				"text": "Go to the kitchen",
+				"goto": 3
+			}
+		}	
+	},
+	"2": {
+		"text": "While you are asleep, someone murders you.",
+		"options": {
+			"q": {
+				"text": "Quit"
+			}	
+		}
+	},
+	"3": {
+		"text": "The kitchen explodes.",
+		"options": {
+
+		}
+	}
+}
