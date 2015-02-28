@@ -1,29 +1,74 @@
 {
-	"1": {
-		"text": "You wake up.\nWhat do you do?",
-		"options": {
-			"1": {
-				"text": "Go back to sleep",
-				"goto": 2
-			},
-			"2": {
-				"text": "Go to the kitchen",
-				"goto": 3
-			}
-		}	
-	},
-	"2": {
-		"text": "While you are asleep, someone murders you.",
-		"options": {
-			"q": {
-				"text": "Quit"
-			}	
-		}
-	},
-	"3": {
-		"text": "The kitchen explodes.",
-		"options": {
-
-		}
-	}
+    "1": {
+        "options": {
+            "1": {
+                "goto": "10",
+                "text": "Go back to sleep"
+            },
+            "2": {
+                "goto": "11",
+                "text": "Pull out your phone"
+            },
+            "3": {
+                "goto": "12",
+                "text": "Go to the kitchen"
+            }
+        },
+        "text": "You wake up.\nWhat do you do?"
+    },
+    "10": {
+        "options": {
+            "1": {
+                "goto": "100",
+                "text": "Go check the door"
+            }
+        },
+        "text": "In a dream you are sitting in your room. You hear someone come in the backdoor and leave shortly after. You wake up as the visitor slams the door shut. It might not have been just a dream.\nWhat do you do?"
+    },
+    "11": {
+        "options": {
+            "1": {
+                "goto": "110",
+                "text": "Check your messages"
+            },
+            "2": {
+                "goto": "111",
+                "text": "Call back"
+            }
+        },
+        "text": "There is an unanswered call. What do you do?"
+    },
+    "110": {
+        "options": {
+        },
+        "text": ""
+    },
+    "111": {
+        "options": {
+        },
+        "text": ""
+    },
+    "12": {
+        "options": {
+            "1": {
+                "goto": "120",
+                "text": "Check the fridge for something to eat"
+            },
+            "2": {
+                "goto": "121",
+                "text": "Check the package on the table"
+            }
+        },
+        "text": "You go to the kitchen and see a package on the table."
+    },
+    "120": {
+        "options": {
+        },
+        "text": ""
+    },
+    "121": {
+        "options": {
+        },
+        "text": ""
+    }
 }
